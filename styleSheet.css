@@ -1,0 +1,85 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(images/background.jpg);
+}
+
+.mainBlock{
+    background-color: white;
+    padding: 3%;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flexbox;
+    width: 30%;
+    height: 70%;
+    align-items: center ;
+    box-shadow: 1px 1px 12px 4px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+    font-size: 17px;
+    border: solid 1px #859837;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-overflow:ellipsis;
+}
+
+a{
+    color: #aebd74;
+    text-decoration: none;
+}
+a:hover{
+    color: #4a551f;
+}
+
+.aligna{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+button{
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    background-color: #859837;
+    border: none;
+    border-radius: 5px;
+    padding:12px 40%;
+}
+button:hover{
+    background-color: #4a551f;
+    color: white;
+    transition: 0.5s all;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.5);
+}
+
+.account{
+    margin-top: 20px;
+    display:flex;
+    margin-bottom: 50px;
+}
+p{
+    padding-right: 10px;
+}
+
+@media only screen and (max-width:800px){
+    .mainBlock{
+        width: 70%;
+    }
+}
